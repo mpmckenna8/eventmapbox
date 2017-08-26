@@ -5,7 +5,7 @@ module.exports = {
       "type": "Feature",
       "properties": {
         "name": "Stand Up Against Hate at Alamo Square Park",
-        "date": "August 25, 2017",
+        "date": "August 26, 2017",
         "id":"pro1",
         "website": "https://www.facebook.com/events/1648882291818267/",
       },
@@ -22,7 +22,7 @@ module.exports = {
       "properties": {
         "name": "Bay Area Rally Against Hate",
         "id":"pro2",
-        "date": "August 26th, 2017 10:30 AM",
+        "date": "August 27th, 2017 10:30 AM",
         "website": "https://www.facebook.com/events/1554573591279582/"
       },
       "geometry": {

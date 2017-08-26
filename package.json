@@ -2,7 +2,7 @@
   "name": "mapbox-maps",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://benjamintd.github.io/mapbox-maps",
+  "homepage": "https://mpmckenna8.github.io/eventmapbox",
   "devDependencies": {
     "@mapbox/spritezero-cli": "^2.0.0",
     "enzyme": "^2.8.2",
@@ -53,11 +53,11 @@
   "main": "src/index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/benjamintd/mapbox-maps.git"
+    "url": "git+https://github.com/mpmckenna8/eventmapbox.git"
   },
   "author": "benjamintd",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/benjamintd/mapbox-maps/issues"
+    "url": "https://github.com/mpmckenna8/eventmapbox/issues"
   }
 }
