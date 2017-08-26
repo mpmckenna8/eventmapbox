@@ -1,0 +1,63 @@
+{
+  "name": "mapbox-maps",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://benjamintd.github.io/mapbox-maps",
+  "devDependencies": {
+    "@mapbox/spritezero-cli": "^2.0.0",
+    "enzyme": "^2.8.2",
+    "enzyme-to-json": "^1.5.1",
+    "eslint": "^3.17.1",
+    "eslint-config-mourner": "^2.0.1",
+    "eslint-plugin-jest": "^20.0.3",
+    "eslint-plugin-react": "^6.10.0",
+    "gh-pages": "^0.12.0",
+    "react-scripts": "0.9.5",
+    "react-test-renderer": "^15.5.4"
+  },
+  "dependencies": {
+    "@mapbox/polyline": "^0.2.0",
+    "@turf/bbox": "^3.13.0",
+    "@turf/bbox-polygon": "^3.13.0",
+    "@turf/buffer": "^3.13.0",
+    "@turf/distance": "^4.5.2",
+    "blueimp-md5": "^2.7.0",
+    "cheap-ruler": "^2.5.0",
+    "history": "^4.6.3",
+    "lodash": "^4.17.4",
+    "mapbox-gl": "^0.38.0",
+    "prop-types": "^15.5.10",
+    "react": "^15.5.0",
+    "react-dom": "^15.4.2",
+    "react-redux": "^5.0.3",
+    "react-router": "^4.1.1",
+    "react-router-redux": "^5.0.0-alpha.6",
+    "recharts": "^1.0.0-alpha.0",
+    "redux": "^3.6.0",
+    "redux-logger": "^3.0.6",
+    "wikidata-sdk": "^4.2.4",
+    "xhr": "^2.4.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "npm run build-sprites && react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "lint": "eslint src/**/*.js",
+    "fix": "eslint --fix src/**/*.js",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "build-sprites": "spritezero public/sprite src/styles/icons && spritezero public/sprite@2x src/styles/icons --retina"
+  },
+  "description": "A Google-like interface to Mapbox maps.",
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benjamintd/mapbox-maps.git"
+  },
+  "author": "benjamintd",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/benjamintd/mapbox-maps/issues"
+  }
+}

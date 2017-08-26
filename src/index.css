@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.root {
+  touch-action: none;
+}
+
+#map {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.directions-input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.directions-input::-moz-placeholder { /* Firefox 19+ */
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.place-info {
+  margin-top: 48px!important;
+}
+
+.cover {
+  object-fit: cover;
+}
+
+.style-switch {
+  width: 60px;
+  height: 60px;
+}
+
+.icon-switch {
+  height: 24px !important;
+  width: 24px !important;
+}
+
+.animation-subtle-shake {
+  animation: subtle-shake 0.5s ease-in-out;
+}
+
+.style-switch-enter {
+  opacity: 0.01;
+}
+
+.style-switch-enter.style-switch-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
+
+.style-switch-leave {
+  opacity: 1;
+}
+
+.style-switch-leave.style-switch-leave-active {
+  opacity: 0.01;
+  transition: opacity 500ms ease-in;
+}
+
+.eventmarker {
+  background-color: 'purple';
+  stroke: 'green';
+}
+.eventicon {
+  stroke: "green";
+}
+
+.eventLink {
+  color: pink;
+}
+
+.eventDisplay0 {
+  background-color: #f7fcfd;
+  cursor:pointer;
+}
+
+.eventDisplay1 {
+  background-color: #e0ecf4;
+  cursor:pointer;
+}
+
+@keyframes subtle-shake {
+  from,
+  to { transform: translate3d(0, 0, 0); }
+
+  12.5%,
+  37.5%,
+  62.5%,
+  87.5% { transform: translate3d(-6px, 0, 0); }
+
+  25%,
+  50%,
+  75% { transform: translate3d(6px, 0, 0); }
+}
